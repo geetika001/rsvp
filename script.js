@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Check if user already RSVP'd
     if (userRSVP) {
         disableButtons();
-        rsvpMessage.innerHTML = `You have already RSVP'd ${userRSVP}`;
+        rsvpMessage.innerHTML = "You have already RSVP'd ${userRSVP}";
     }
 
     yesButton.addEventListener("click", function () {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function updateRSVPCount() {
-        rsvpCountElement.innerHTML = `${rsvpCount} people have RSVP'd yes`;
+        rsvpCountElement.innerHTML = "${rsvpCount} people will be joining us till now";
     }
 
     function disableButtons() {

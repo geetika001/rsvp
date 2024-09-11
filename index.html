@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RSVP Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="rsvp-container">
+        <h1>Will you be joining the event?</h1>
+        <div class="buttons">
+            <button id="yesButton">Yes</button>
+            <button id="noButton">No</button>
+        </div>
+        <div id="rsvpMessage" class="rsvp-message"></div>
+        <p id="rsvpCount"></p>
+        <form id="emailForm">
+            <input type="email" id="email" placeholder="Enter your registered email" required />
+            <button type="submit">Submit RSVP</button>
+        </form>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

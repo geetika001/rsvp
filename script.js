@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function updateRSVPCount() {
-        rsvpCountElement.innerHTML = "${rsvpCount} people will be joining us till now";
+        rsvpCountElement.innerHTML = `${rsvpCount} people will be joining us till now`;
     }
 
     function disableButtons() {
